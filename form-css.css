@@ -1,0 +1,73 @@
+
+         
+        body{
+            margin-top:0px ;
+            margin-left: 0px;
+            margin-right: 0px;
+            /* text-align: center; */
+            background-image: url(forms.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            margin-bottom: 0px;
+        }
+        .bg-image{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            width: 100%;
+            height: 1000px;
+            z-index: -1;
+            opacity: 0.8;
+            animation-name: background-image;
+        }
+        .form-div
+        {
+            height: 300px ;
+            width: 100%;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-shadow: 0px 0px 2px rgb(203, 11, 43),
+            0px 0px 4px rgb(203, 11, 43),
+            0px 0px 8px rgb(203, 11, 43),
+            0px 0px 16px rgb(203, 11, 43);
+            
+        }
+        form
+        {
+            position: absolute;
+            left: 10%;
+        }
+        
+        
+        .footer1
+        {
+            position: absolute;
+            width: 100%;
+            height: 200px;
+            background-color: rgba(0, 0, 0, 0.589);
+            /* top: 800px; */
+            bottom: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            
+        }
+        .footer1 span{
+            display: inline-block;
+            color: aliceblue;
+            opacity: 0.8;
+            margin: 0.4rem;
+        }
+        .footer1 span{
+            text-align: left;
+            margin-left: 2rem;
+            color: aliceblue;
+            opacity: 0.8;
+        }
+        .footer1 span a img{
+            height: 40px ;
+            width: 40px;
+        }

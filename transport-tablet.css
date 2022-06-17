@@ -1,0 +1,185 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+body
+{
+    height: 100vh;
+    background: url("main-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.navbar
+{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 0px 0px 2px rgb(186, 0, 99),
+    0px 0px 4px rgb(186, 0, 99),
+    0px 0px 8px rgb(186, 0, 99),
+    0px 0px 16px rgb(186, 0, 99),
+    0px 0px 32px rgb(186, 0, 99),
+    0px 0px 64px rgb(186, 0, 99);
+}
+.navbar img
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+/* ==================================================== */
+#h3-justification
+{
+    margin-top: 30px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.3em;
+    text-shadow: 1px 2px 4px white;
+}
+/* =================Truck description====================================== */
+.truck-types
+{
+    width: 100%;
+    height: 550px;
+    background-color: rgba(0, 0, 0, 0.336);
+    
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box
+{
+    position:absolute ;
+    width: 300px;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255,0.8);
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.747);
+
+}
+#truck1
+{
+    transform: translate(-250px,-120px);
+}
+#truck1 h1{
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#truck1 img
+{
+    height: 40%;
+    width: 40%;
+    margin: 10px auto;
+}
+#truck1 p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+#truck2
+{
+    transform: translate(-250px,120px);
+}
+#truck2 h1{
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#truck2 img
+{
+    height: 40%;
+    width: 40%;
+    margin: 10px auto;
+}
+#truck2 p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+#truck3
+{
+    transform: translate(250px,-120px);
+}
+#truck3 h1{
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#truck3 img
+{
+    height: 40%;
+    width: 40%;
+    margin: 10px auto;
+}
+#truck3 p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+#truck4
+{
+    transform: translate(250px,120px);
+}
+#truck4 h1{
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#truck4 img
+{
+    height: 40%;
+    width: 40%;
+    margin: 10px auto;
+}
+#truck4 p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+
+/* ====================booking check=========================== */
+.bookingCheck
+{
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+#booking
+{
+    font-size: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 0px 0px 2px aqua, 
+    0px 0px 4px aqua,
+    0px 0px 8px aqua,
+    0px 0px 16px aqua,
+    0px 0px 32px aqua,
+    0px 0px 64px aqua,
+    0px 0px 128px aqua,
+    0px 0px 256px aqua;
+}
+#booking-details
+{
+    padding: 10px;
+    font-size: 1.1em;
+    border-radius: 10px;
+
+}
+#booking-details a
+{
+    color: white;
+}
+
